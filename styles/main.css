@@ -45,12 +45,14 @@ body {
     
 }
 
-.section {
-    padding: 1.5rem 0;
+.section {    
+    padding: 2rem 0;
+    margin: auto;
 }
 
 main {
     flex: 1;
+    display: flex;
 }
 
 label {
