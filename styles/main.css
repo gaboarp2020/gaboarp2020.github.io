@@ -1,0 +1,100 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Enriqueta|Roboto');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.row--center {
+    align-items: center;
+}
+
+.column--center {
+    justify-content: center;
+}
+
+.box {
+    width: 32vw;
+    min-width: 320px;
+    padding: 50px;
+    border: solid 1px rgb(230, 230, 230);
+    border-radius: 4px;
+    background-image: linear-gradient(to right, rgb(246, 2
+    46, 246), rgb(236, 236, 236));
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.section {
+    display: block;
+    padding: 1.5rem;
+}
+
+main {
+    flex: 1;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+input, .field {
+    margin-bottom: 20px;
+}
+
+a, button, h1, h2, h3, h4, h5, input, label, nav, span, footer {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(104, 104, 104);
+}
+
+header h1 span {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(89, 162, 196);
+    transition: 0.4s;
+}
+
+.form_button--primary {
+    padding: 12px;
+    margin: auto 5px;
+    background-color: rgb(97, 196, 241);
+    border-radius: 4px;
+    color: aliceblue;
+    border: 1px solid rgb(97, 196, 241);
+    cursor: pointer;
+}
+
+.form_button--secundary {
+    padding: 10px;
+    margin: auto 5px;
+    max-height: 36px;
+    background-color: rgb(89, 162, 196);
+    border-radius: 4px;
+    color: aliceblue;
+    border: 1px solid rgb(89, 162, 196);
+    cursor: pointer;
+}
+
