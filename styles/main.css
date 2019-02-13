@@ -46,8 +46,7 @@ body {
 }
 
 .section {
-    display: block;
-    padding: 1.5rem;
+    padding: 1.5rem 0;
 }
 
 main {
