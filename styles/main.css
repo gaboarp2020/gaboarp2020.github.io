@@ -107,3 +107,7 @@ a {
     cursor: pointer;
 }
 
+.form_button {
+    margin-top: 1.5rem; 
+}
+
