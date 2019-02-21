@@ -63,6 +63,16 @@ input, .field {
     margin-bottom: 20px;
 }
 
+.input {
+    width: 85%;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-indent: 10px;
+}
+
 a, button, h1, h2, h3, h4, h5, input, label, nav, span, footer {
     font-family: 'Roboto', sans-serif;
     color: rgb(104, 104, 104);
