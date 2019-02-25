@@ -109,6 +109,12 @@ a {
     color: aliceblue;
     border: 1px solid rgb(97, 196, 241);
     cursor: pointer;
+    transition: 0.4s;
+}
+
+.form_button--primary:hover {
+    background-color: rgb(36, 176, 241);
+    border: 1px solid rgb(36, 176, 241);
 }
 
 .form_button--secundary {
@@ -120,6 +126,12 @@ a {
     color: aliceblue;
     border: 1px solid rgb(89, 162, 196);
     cursor: pointer;
+    transition: 0.4s;
+}
+
+.form_button--secundary:hover {
+    background-color: rgb(46, 114, 146);
+    border: 1px solid rgb(46, 114, 146);
 }
 
 .form_button {
@@ -131,6 +143,14 @@ a {
 a, button, h1, h2, h3, h4, h5, input, label, nav, span, footer {
     font-family: 'Roboto', sans-serif;
     color: rgb(104, 104, 104);
+}
+
+a {
+    transition: 0.4s;
+}
+
+a:hover {
+    color: rgb(36, 176, 241);
 }
 
 header h1 span {
