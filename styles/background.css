@@ -1,0 +1,50 @@
+.container {
+    background-color: #3e4862;
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+
+.cuadrado-socket {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: rgb(194, 53, 53, 0);
+    left: 400px;
+    top: 10px;
+    border: solid 2px rgb(194, 53, 53);
+}
+
+.triangulo-socket {
+    width: 0px;
+    height: 0px;
+    border-left: 72px solid transparent;
+    border-right: 72px solid transparent;
+    border-bottom: 106px solid #3f78d4;
+    position: absolute;
+    top: 96px;
+    left: 38px;
+}
+
+.triangulo {
+    width: 0px;
+    height: 0px;
+    border-left: 68px solid transparent;
+    border-right: 68px solid transparent;
+    border-bottom: 98px solid #3e4862;
+    position: absolute;
+    top: 101px;
+    left: 42px;
+    z-index: 1;
+}
+
+.circulo-socket {
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    background-color: rgb(235, 232, 60, 0);
+    border-radius: 50%;
+    top: 250px;
+    left: 300px;
+    border: solid 2px rgb(235, 232, 60);
+}
